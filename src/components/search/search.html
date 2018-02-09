@@ -1,0 +1,11 @@
+<h6>Enter Character Name</h6>
+
+<section>
+<ion-searchbar [(ngModel)]="characterName">
+
+</ion-searchbar>
+
+<button ion-button small (click)="searchCharacter(characterName)" type="submit" >Search</button>
+</section>
+
+<h3>{{results}}</h3>
